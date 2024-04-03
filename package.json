@@ -1,0 +1,26 @@
+{
+  "name": "pages",
+  "version": "1.0.0",
+  "description": "A simple html generator class.",
+  "main": "./esm/pages.js",
+  "type": "module",
+  "scripts": {
+    "compile": "rollup --config config/rollup.config.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shvabuk/pages.git"
+  },
+  "author": "Ostap Shvab",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shvabuk/pages/issues"
+  },
+  "homepage": "https://github.com/shvabuk/pages",
+  "devDependencies": {
+    "pretty": "^2.0.0",
+    "rollup": "^4.13.0",
+    "twig": "^1.17.1"
+  }
+}
