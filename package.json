@@ -18,9 +18,11 @@
     "url": "https://github.com/shvabuk/pages/issues"
   },
   "homepage": "https://github.com/shvabuk/pages",
-  "devDependencies": {
+  "dependencies": {
     "pretty": "^2.0.0",
-    "rollup": "^4.13.0",
     "twig": "^1.17.1"
+  },
+  "devDependencies": {
+    "rollup": "^4.13.0"
   }
 }
